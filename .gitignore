@@ -1,0 +1,35 @@
+# Fichiers binaires compilés
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+secureproxy
+
+# Base de données SQLite et fichiers sensibles
+*.db
+*.sqlite
+*.sqlite3
+*.key
+
+# Clé maître (générée localement)
+*.master.key
+
+# Systèmes d'exploitation
+.DS_Store       # macOS
+Thumbs.db       # Windows
+ehthumbs.db     # Windows
+
+# Éditeurs / IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Fichiers de log
+*.log
+
+# Backups / fichiers temporaires
+*.bak
+*.tmp
+*.out
